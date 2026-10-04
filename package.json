@@ -1,0 +1,19 @@
+{
+  "name": "node3000",
+  "version": "1.0.0",
+  "description": "Node.js app for testing Docker port configuration",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "dev": "nodemon app.js"
+  },
+  "keywords": ["node", "docker", "port"],
+  "author": "iBlueCat",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.18.2"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  }
+}
